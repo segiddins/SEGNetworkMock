@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06B53D2177F777000E18EA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B53D1177F777000E18EA4 /* UIKit.framework */; };
+		C06B53D4177F777000E18EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B53D3177F777000E18EA4 /* Foundation.framework */; };
+		C06B53D6177F777000E18EA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B53D5177F777000E18EA4 /* CoreGraphics.framework */; };
+		C06B53DC177F777000E18EA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C06B53DA177F777000E18EA4 /* InfoPlist.strings */; };
+		C06B53DE177F777000E18EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B53DD177F777000E18EA4 /* main.m */; };
+		C06B53E2177F777000E18EA4 /* SEGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B53E1177F777000E18EA4 /* SEGAppDelegate.m */; };
+		C06B53E4177F777000E18EA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E3177F777000E18EA4 /* Default.png */; };
+		C06B53E6177F777000E18EA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E5177F777000E18EA4 /* Default@2x.png */; };
+		C06B53E8177F777000E18EA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E7177F777000E18EA4 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C06B53CE177F777000E18EA4 /* SEGNetworkMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEGNetworkMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06B53D1177F777000E18EA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C06B53D3177F777000E18EA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C06B53D5177F777000E18EA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C06B53D9177F777000E18EA4 /* SEGNetworkMock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEGNetworkMock-Info.plist"; sourceTree = "<group>"; };
+		C06B53DB177F777000E18EA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C06B53DD177F777000E18EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C06B53DF177F777000E18EA4 /* SEGNetworkMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SEGNetworkMock-Prefix.pch"; sourceTree = "<group>"; };
+		C06B53E0177F777000E18EA4 /* SEGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAppDelegate.h; sourceTree = "<group>"; };
+		C06B53E1177F777000E18EA4 /* SEGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAppDelegate.m; sourceTree = "<group>"; };
+		C06B53E3177F777000E18EA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C06B53E5177F777000E18EA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C06B53E7177F777000E18EA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06B53CB177F777000E18EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06B53D2177F777000E18EA4 /* UIKit.framework in Frameworks */,
+				C06B53D4177F777000E18EA4 /* Foundation.framework in Frameworks */,
+				C06B53D6177F777000E18EA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C06B53C5177F777000E18EA4 = {
+			isa = PBXGroup;
+			children = (
+				C06B53D7177F777000E18EA4 /* SEGNetworkMock */,
+				C06B53D0177F777000E18EA4 /* Frameworks */,
+				C06B53CF177F777000E18EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C06B53CF177F777000E18EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06B53CE177F777000E18EA4 /* SEGNetworkMock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06B53D0177F777000E18EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06B53D1177F777000E18EA4 /* UIKit.framework */,
+				C06B53D3177F777000E18EA4 /* Foundation.framework */,
+				C06B53D5177F777000E18EA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C06B53D7177F777000E18EA4 /* SEGNetworkMock */ = {
+			isa = PBXGroup;
+			children = (
+				C06B53E0177F777000E18EA4 /* SEGAppDelegate.h */,
+				C06B53E1177F777000E18EA4 /* SEGAppDelegate.m */,
+				C06B53D8177F777000E18EA4 /* Supporting Files */,
+			);
+			path = SEGNetworkMock;
+			sourceTree = "<group>";
+		};
+		C06B53D8177F777000E18EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06B53D9177F777000E18EA4 /* SEGNetworkMock-Info.plist */,
+				C06B53DA177F777000E18EA4 /* InfoPlist.strings */,
+				C06B53DD177F777000E18EA4 /* main.m */,
+				C06B53DF177F777000E18EA4 /* SEGNetworkMock-Prefix.pch */,
+				C06B53E3177F777000E18EA4 /* Default.png */,
+				C06B53E5177F777000E18EA4 /* Default@2x.png */,
+				C06B53E7177F777000E18EA4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06B53CD177F777000E18EA4 /* SEGNetworkMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06B53EB177F777000E18EA4 /* Build configuration list for PBXNativeTarget "SEGNetworkMock" */;
+			buildPhases = (
+				C06B53CA177F777000E18EA4 /* Sources */,
+				C06B53CB177F777000E18EA4 /* Frameworks */,
+				C06B53CC177F777000E18EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEGNetworkMock;
+			productName = SEGNetworkMock;
+			productReference = C06B53CE177F777000E18EA4 /* SEGNetworkMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06B53C6177F777000E18EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Samuel E. Giddins";
+			};
+			buildConfigurationList = C06B53C9177F777000E18EA4 /* Build configuration list for PBXProject "SEGNetworkMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C06B53C5177F777000E18EA4;
+			productRefGroup = C06B53CF177F777000E18EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06B53CD177F777000E18EA4 /* SEGNetworkMock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06B53CC177F777000E18EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06B53DC177F777000E18EA4 /* InfoPlist.strings in Resources */,
+				C06B53E4177F777000E18EA4 /* Default.png in Resources */,
+				C06B53E6177F777000E18EA4 /* Default@2x.png in Resources */,
+				C06B53E8177F777000E18EA4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06B53CA177F777000E18EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06B53DE177F777000E18EA4 /* main.m in Sources */,
+				C06B53E2177F777000E18EA4 /* SEGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C06B53DA177F777000E18EA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06B53DB177F777000E18EA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06B53E9177F777000E18EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C06B53EA177F777000E18EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06B53EC177F777000E18EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEGNetworkMock/SEGNetworkMock-Prefix.pch";
+				INFOPLIST_FILE = "SEGNetworkMock/SEGNetworkMock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C06B53ED177F777000E18EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEGNetworkMock/SEGNetworkMock-Prefix.pch";
+				INFOPLIST_FILE = "SEGNetworkMock/SEGNetworkMock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06B53C9177F777000E18EA4 /* Build configuration list for PBXProject "SEGNetworkMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06B53E9177F777000E18EA4 /* Debug */,
+				C06B53EA177F777000E18EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06B53EB177F777000E18EA4 /* Build configuration list for PBXNativeTarget "SEGNetworkMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06B53EC177F777000E18EA4 /* Debug */,
+				C06B53ED177F777000E18EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06B53C6177F777000E18EA4 /* Project object */;
+}
