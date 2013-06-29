@@ -16,6 +16,7 @@
 		C06B53E4177F777000E18EA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E3177F777000E18EA4 /* Default.png */; };
 		C06B53E6177F777000E18EA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E5177F777000E18EA4 /* Default@2x.png */; };
 		C06B53E8177F777000E18EA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06B53E7177F777000E18EA4 /* Default-568h@2x.png */; };
+		C06B53F0177F790400E18EA4 /* SEGNetworkMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B53EF177F790400E18EA4 /* SEGNetworkMock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C06B53E3177F777000E18EA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C06B53E5177F777000E18EA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C06B53E7177F777000E18EA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C06B53EE177F790400E18EA4 /* SEGNetworkMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGNetworkMock.h; sourceTree = SOURCE_ROOT; };
+		C06B53EF177F790400E18EA4 /* SEGNetworkMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGNetworkMock.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				C06B53E0177F777000E18EA4 /* SEGAppDelegate.h */,
 				C06B53E1177F777000E18EA4 /* SEGAppDelegate.m */,
 				C06B53D8177F777000E18EA4 /* Supporting Files */,
+				C06B53EE177F790400E18EA4 /* SEGNetworkMock.h */,
+				C06B53EF177F790400E18EA4 /* SEGNetworkMock.m */,
 			);
 			path = SEGNetworkMock;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			files = (
 				C06B53DE177F777000E18EA4 /* main.m in Sources */,
 				C06B53E2177F777000E18EA4 /* SEGAppDelegate.m in Sources */,
+				C06B53F0177F790400E18EA4 /* SEGNetworkMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

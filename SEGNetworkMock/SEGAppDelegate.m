@@ -7,6 +7,7 @@
 //
 
 #import "SEGAppDelegate.h"
+#import "SEGNetworkMock.h"
 
 @implementation SEGAppDelegate
 
@@ -16,6 +17,16 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[SEGNetworkMock sharedNetworkMock] setSuccessRate:.45];
+    
+    NSDictionary *dict = @{@"test":@"yes"};
+    for (int i = 0; i < 10; i++) {
+        [[SEGNetworkMock sharedNetworkMock] mockObjectRequestWithMockObject:dict completion:^(BOOL success, id object) {
+            NSLog(@"success? %@\nobject: %@", @(success), object);
+        }];
+    }
+    
     return YES;
 }
 
