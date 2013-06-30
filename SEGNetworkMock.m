@@ -51,7 +51,7 @@
 
 - (BOOL)isSuccess
 {
-    CGFloat random = (float)rand() / RAND_MAX;
+    CGFloat random = (float)arc4random()/RAND_MAX;
     return random < self.successRate;
 }
 
